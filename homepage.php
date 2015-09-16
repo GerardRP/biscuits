@@ -3,14 +3,19 @@
 
 <head>
 	<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>Biscuits | For Life</title>
 </head>
 
 <body>
+
+	<img id="biscuits"src="/mypages/biscuits/biscuit.jpg">
+		
 	<header>
 		<div class="container">
-			<div class="background-image">
-				<img id="biscuits"src="/mypages/biscuit.jpg">
+			<div class="title">
+				<h1>Biscuits for Life</h1>
 			</div>
 		</div>
 	</header>
