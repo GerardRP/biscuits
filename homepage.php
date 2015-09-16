@@ -7,7 +7,15 @@
 </head>
 
 <body>
-	<p>Hello</p>
-
+	<header>
+		<div class="container">
+			<div class="background-image">
+				<img id="biscuits"src="/mypages/biscuit.jpg">
+			</div>
+		</div>
+	</header>
+	<section></section>
+	<footer>
+	</footer>
 </body>
 </html>
