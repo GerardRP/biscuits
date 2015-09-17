@@ -14,25 +14,63 @@ time, mark, audio, video {
 		font: inherit;
 		vertical-align: baseline;
 	}
-#biscuits {
-	image-size: cover;
-	z-index: -999;
+
+.biscutis {
+  	position: relative;
+}
+.biscuits:before  {
+	content: '';
+	background: url(/mypages/biscuits/biscuit.jpg);
+	opacity: 0.4;
+	background-size: cover;
+	width: 1700px;
     max-width: 100%;
-  	min-width: 1275px;
-  	min-height: 100%;
-  	min-height:758;
-  	overflow: hidden;
-  	position: fixed;
-  	top: 0;
-  	left: 0;
-  	opacity: 0.5;
+  	min-width: 700px;
+  	height: 600px;
+  	position: absolute;
+	text-align: center;
+	z-index: -999;
 }
 
-.container .title {
-	position: relative;
+.biscuits .container {
+	color: #000;
 	text-align: center;
-	font-size: 45px;
-	margin-top: 200px;
-	margin-bottom: 200px;
-	width:100%;
+	font-size: 3em;
+	padding-top: 270px;
+	padding-bottom: 250px;
 }
+
+section {
+	margin:0px;
+	padding: 0px;
+}
+
+.xray {
+	position: relative;
+	width: 100%;
+	
+
+}
+.xray:before {
+	content: '';
+	background: url(/mypages/biscuits/images/xray.jpg);
+	background-size: cover;
+	width: 400px;
+  	height: 600px;
+  	margin-top: ;
+  	position: absolute;
+	text-align: right;
+	z-index: -999;
+}
+.xray .text {
+	margin-top: 25px;
+	text-align: left;
+	padding-top: 100px;
+	padding-left: 100px;
+	height: 500px;
+	background: rgba(0,0,0,0.1);
+	margin-left: 400px;
+	font-size: 2em;
+
+}
+

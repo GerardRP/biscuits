@@ -9,17 +9,22 @@
 </head>
 
 <body>
-
-	<img id="biscuits"src="/mypages/biscuits/biscuit.jpg">
-		
 	<header>
-		<div class="container">
-			<div class="title">
-				<h1>Biscuits for Life</h1>
-			</div>
+		<div class="biscuits">
+			<div class="container">
+			<h1>Biscuits for Life</h1>
+			</div>			
 		</div>
 	</header>
-	<section></section>
+	<section>
+		<div class="container">
+			<div class="xray">
+				<div class="text">
+					<h1>This is not your foot</h1>
+				</div>
+			</div>
+		</div>
+	</section>
 	<footer>
 	</footer>
 </body>
